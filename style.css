@@ -32,6 +32,7 @@ h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
+    
 }
 
 h1:after{
@@ -53,8 +54,8 @@ h1 span{
     height: 8px;
     width: 8px;
     border-radius: 50%;
-    color: #fff;
-    background-color:#ffffff ;
+    color: #ffffff;
+    background-color:#ffffff;
     animation: anim 5s linear infinite;
 }
 
@@ -80,8 +81,8 @@ h1 span{
     height: 280px;
     width: 325px;
     background-color: #090a0c;
-   
-    border: 0.2px solid rgba(114,226,174,0.2);
+    
+    
     border-radius: 8px;
     transition: .6s;
     display: flex;
@@ -120,7 +121,7 @@ h1 span{
 }
 
 .card h2{
-    color: #ff0000;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -151,7 +152,7 @@ h1 span{
         grid-template-columns: repeat(2,1fr);
        }
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:600px) {
        .cards{
         grid-template-columns: repeat(1,1fr);
        }
