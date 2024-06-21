@@ -35,7 +35,7 @@ h1{
     
 }
 
-h1:after{
+/* h1:after{
     content: "";
     position: absolute;
     top: 100%;
@@ -44,9 +44,9 @@ h1:after{
     width: 80%;
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.1);
-}
+} */
 
-h1 span{
+/* h1 span{
     
     position: absolute;
     top: 100%;
@@ -57,7 +57,7 @@ h1 span{
     color: #ffffff;
     background-color:#ffffff;
     animation: anim 5s linear infinite;
-}
+} */
 
 @keyframes anim {
     95% {
