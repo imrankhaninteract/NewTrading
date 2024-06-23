@@ -187,27 +187,27 @@ nav ul li a{
      grid-template-columns: repeat(2,1fr);
     }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:730px) {
        .cards{
         grid-template-columns: repeat(1,1fr);
        }
     h1{
         font-size: 2.5rem;
     }
+    #menuBtn{
+        width: 20px;
+        height: 20px;
+    }
 }
 
 
-@media screen and (max-width:600px) {
+
+
+
+
+
+
     
- h1{
-     font-size: 1.5rem;
- }
-}
-
-
-
-
-
 
 
 
