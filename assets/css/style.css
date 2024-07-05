@@ -206,7 +206,7 @@ route ul li a {
 @keyframes flipIn {
   from {
     transform: rotateY(90deg);
-    opacity: 0;
+    opacity: 1;
   }
   to {
     transform: rotateY(0);
@@ -271,9 +271,9 @@ route ul li a {
 
 body.light_theme {
 
-  --bg-primary: hsl(0, 0%, 90%);
+  --bg-primary: hsl(194, 100%, 17%);
   --bg-secondary: hsl(0, 0%, 100%);
-  --color-primary: hsl(0, 0%, 12%);
+  --color-primary: hsl(0, 0%, 100%);
   --color-secondary: hsl(0, 0%, 37%);
   --card-shadow: hsla(0, 0%, 0%, 0.1);
   --input-bg: hsl(0, 0%, 93%);
@@ -911,12 +911,18 @@ main { overflow-x: hidden; }
 
 .load-more {
   font-size: var(--fs-4);
-  color: var(--raw-seinna);
+  color: whitesmoke;
   text-decoration: underline;
   margin-inline: auto;
 }
+.load-more a{
+  color: #e4e4e4;
+}
 
-
+.load-more a:hover{
+  color: rgb(215, 0, 0);
+  
+}
 
 
 
@@ -1631,6 +1637,7 @@ textarea.input-field {
 }
 .teamMambers-col p{
   font-size: 14px;
+  color: #e4e4e4;
 }
 .mamber{
   display: flex;
@@ -1642,13 +1649,12 @@ textarea.input-field {
   margin-right: 20px;
   border-radius: 3px;
 }
-.mamber-info .fa-brands{
-  margin-left: 10px;
-  color: #27c0ff;
-  font-size: 20px;
+.mamber-info h4{
+  color: #e4e4e4;
 }
+
 .mamber-info small{
-  color: #025977;
+  color: rgb(215, 0, 0);
 }
 .teamMambers-col:hover{
   transform: translateY(-7px);
