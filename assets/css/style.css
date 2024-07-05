@@ -165,7 +165,10 @@ route ul li a {
 .cardBox:hover:after {
   width: 225%;
   top: -100%;
+  
 }
+
+
 
 .cardBox img {
   width: 300px;
@@ -951,7 +954,7 @@ main { overflow-x: hidden; }
 .contact-item-title { margin-bottom: 10px; }
 
 .contact-list-item .contact-info {
-  color: var(--color-secondary);
+  color: black;
   font-style: normal;
   line-height: 1.6;
   transition: var(--transition-1);
