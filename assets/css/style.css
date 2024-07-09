@@ -497,13 +497,17 @@ body.active { overflow: hidden; }
 }
 
 .logo a {
-  color: var(--color-primary);
-  font-family: var(--ff-saira-stencil-one);
+  color: black;
+  font-family: "Futura",sans-serif;
+  font-weight: bolder;
+  
 }
 
 .logo span {
   display: inline-block;
-  color: var(--raw-seinna);
+  width: 5px; /* Adjust size as needed */
+  height: 5px; /* Adjust size as needed */
+  background-color: black;
   margin-left: 2px;
 }
 
@@ -1072,7 +1076,7 @@ textarea.input-field {
 
 .copyright a {
   display: inline-block;
-  color: var(--raw-seinna);
+  color: rgb(215, 0, 0);
 }
 
 
@@ -1621,6 +1625,7 @@ textarea.input-field {
   width: 100%;
   padding: 70px 0;
 }
+
 .teamMambers-row{
   width: 80%;
   margin: auto;
@@ -1641,6 +1646,7 @@ textarea.input-field {
 .teamMambers-col p{
   font-size: 14px;
   color: #e4e4e4;
+  font-family: "Poppins", sans-serif;
 }
 .mamber{
   display: flex;
@@ -1652,12 +1658,14 @@ textarea.input-field {
   margin-right: 20px;
   border-radius: 3px;
 }
-.mamber-info h4{
+.mamber-info h3{
   color: #e4e4e4;
+  font-family: "Futura", sans-serif;
 }
 
 .mamber-info small{
   color: rgb(215, 0, 0);
+  font-family: "Futura", sans-serif;
 }
 .teamMambers-col:hover{
   transform: translateY(-7px);
@@ -1675,14 +1683,15 @@ textarea.input-field {
 }
 .title-text p{
   margin: auto;
-  font-size: 20px;
-  color: #025977;
+  font-size: 40px;
+  color: #e8e8e8;
   font-weight: bold;
   position: relative;
   z-index: 1;
   display: inline-block;
+  font-family: "Futura", sans-serif;
 }
-.title-text p::after{
+/* .title-text p::after{
   content: '';
   width: 50px;
   height: 35px;
@@ -1695,9 +1704,10 @@ textarea.input-field {
   border-top-left-radius: 35px;
   border-bottom-right-radius: 35px;
 
-}
+} */
 .title-text h1{
-  font-size: 50px;
+  font-size: 40px;
+  font-family: "Poppins",sans-serif;
 }
 
 
