@@ -275,7 +275,7 @@ route ul li a {
 body.light_theme {
 
   --bg-primary: hsl(194, 100%, 17%);
-  --bg-secondary: hsl(0, 0%, 100%);
+  --bg-secondary: hsl(0, 0%, 92%);
   --color-primary: hsl(0, 0%, 100%);
   --color-secondary: hsl(0, 0%, 37%);
   --card-shadow: hsla(0, 0%, 0%, 0.1);
