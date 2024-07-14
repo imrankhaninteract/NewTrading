@@ -225,7 +225,7 @@ route ul li a {
    * colors
    */
 
-  --raw-seinna: hsl(12, 100%, 50%);
+  --raw-seinna: hsl(24, 74%, 58%);
   --sizzling-sunrise: hsl(51, 95%, 54%);
   --scarlet: hsl(13, 96%, 47%);
   --black: hsl(0, 0%, 0%);
@@ -275,9 +275,9 @@ route ul li a {
 body.light_theme {
 
   --bg-primary: hsl(194, 100%, 17%);
-  --bg-secondary: hsl(0, 0%, 92%);
+  --bg-secondary: hsl(0, 0%, 100%);
   --color-primary: hsl(0, 0%, 100%);
-  --color-secondary: hsl(0, 0%, 22%);
+  --color-secondary: hsl(0, 0%, 37%);
   --card-shadow: hsla(0, 0%, 0%, 0.1);
   --input-bg: hsl(0, 0%, 93%);
 
